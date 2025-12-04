@@ -1,0 +1,3 @@
+add "Test Task" "Test Description"
+list
+exit
