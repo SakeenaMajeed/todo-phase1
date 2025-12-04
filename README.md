@@ -1,6 +1,48 @@
+# ✅ Todo Console Application (Phase I)
+
+A fully interactive **In-Memory Console Todo Application** built using **clean architecture**, **specification-driven development**, and an **AI-assisted workflow** using Spec-Kit Plus.
+
+This project is designed as a strong foundation for future upgrades including database persistence, advanced CLI features, and structured logging.
+
+---
+
+## 🚀 Features (Phase I)
+
+- Fully interactive Command Line Interface (CLI)
+- In-memory task management
+- Clean architecture (CLI → Service → Domain)
+- Complete CRUD operations
+- Task completion and status tracking
+- Full unit and integration test coverage
+- AI-assisted & spec-driven development workflow
+
+---
+
+## 🛠️ Tech Stack
+
+- Python 3
+- Spec-Kit Plus
+- AI-Assisted Development
+- Clean Architecture Principles
+
+---
+
+## ▶️ How to Run the App
+
+Run the CLI from the project root:
+
+## CLI Commands
+
+add "title" ["description"]
+list
+update <id> "new title" ["new description"]
+delete <id>
+complete <id>
+incomplete <id>
+help
+exit
 
 
-```
 feat: complete Phase I in-memory console todo app
 
 - Implemented fully interactive CLI (add, list, update, delete, complete, incomplete)
@@ -11,14 +53,11 @@ feat: complete Phase I in-memory console todo app
 - Added missing __init__.py files and fixed import paths
 - Updated project structure and documentation
 - Added prompt history and ADR records via Spec-Kit Plus
-```
 
----
 
-```markdown
 # Phase I Completion — In-Memory Console Todo App
 
-This Pull Request delivers the full Phase I implementation of the Todo Console Application using a specification‑driven, AI‑assisted workflow. The project follows clean architecture principles and includes a fully interactive CLI, service layer, domain models, and complete automated test coverage.
+This Pull Request delivers the full Phase I implementation of the Todo Console Application using a specification-driven, AI-assisted workflow. The project follows clean architecture principles and includes a fully interactive CLI, service layer, domain models, and complete automated test coverage.
 
 ---
 
@@ -38,9 +77,7 @@ Implemented a complete command-line interface supporting:
 
 The CLI now runs from the project root:
 
-```
-python src/cli/todo_cli.py
-```
+
 
 ---
 
@@ -76,7 +113,7 @@ All tests pass successfully.
 ### **5. Documentation**
 - Added a complete `README.md`  
 - Documented commands, setup, and test instructions  
-- Clarified development approach (Spec‑Kit Plus + AI‑driven)  
+- Clarified development approach (Spec-Kit Plus + AI-driven)  
 
 ---
 
@@ -92,64 +129,24 @@ All tests pass successfully.
 
 ## ✅ Phase II Roadmap (Planned)
 
-### **1. Persistence Layer**
-- Replace in-memory storage with file-based or database storage  
-- Add repository layer  
-- Add persistence tests  
-
-### **2. Enhanced CLI Features**
-- Search tasks  
-- Filter by status  
-- Sort tasks  
-- Better formatting  
-
-### **3. Error Handling & Logging**
-- Add structured logging  
-- Improve exception hierarchy  
-
-### **4. Documentation Expansion**
-- Add architecture diagrams  
-- Add developer onboarding guide  
+- Persistence layer (file/database)
+- CLI enhancements (search, filter, sort)
+- Logging & error handling
+- Architecture documentation
 
 ---
 
 ## ✅ Notes
 
-This entire implementation was created using **specification‑driven development**, **Spec‑Kit Plus**, and **AI‑assisted workflows**, with no manual business logic coding.
-
-```
-
----
+This entire implementation was created using **specification-driven development**, **Spec-Kit Plus**, and **AI-assisted workflows**, with no manual business logic coding.
 
 
-```markdown
-# Phase II Roadmap — Todo Application
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Status](https://img.shields.io/badge/Status-Phase%20I%20Completed-success)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen)
+![Spec-Driven](https://img.shields.io/badge/Spec--Driven-Development-purple)
+![AI Assisted](https://img.shields.io/badge/AI--Assisted-Yes-orange)
 
-## 1. Persistence Layer
-- Introduce file-based or database-backed storage
-- Implement repository pattern
-- Add persistence unit tests
-- Add migration or initialization logic
-
-## 2. CLI Enhancements
-- Search tasks by keyword
-- Filter tasks (completed, pending)
-- Sort tasks by date or title
-- Improve output formatting
-
-## 3. Error Handling & Logging
-- Add structured logging
-- Improve exception classes
-- Add debug mode for developers
-
-## 4. Documentation
-- Add architecture diagrams
-- Add developer onboarding guide
-- Add contribution guidelines
-
-## 5. Optional Enhancements
-- Export tasks to JSON/CSV
-- Import tasks from file
-- Add colorized CLI output
-```
-
+```bash
+python src/cli/todo_cli.py
