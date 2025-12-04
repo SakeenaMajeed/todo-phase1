@@ -1,0 +1,2 @@
+# Requirements for Todo Console App
+pytest>=9.0.0
